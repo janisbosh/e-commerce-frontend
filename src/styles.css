@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+header {
+    background-color: #3498DB;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 2px solid #2980B9;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #2980B9;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #5DADE2;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: right;
+    border-top: 2px solid #3498DB;
+}
+
+body {
+    background-color: #ECF0F1;
+}
